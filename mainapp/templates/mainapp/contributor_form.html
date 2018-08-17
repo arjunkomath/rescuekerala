@@ -3,7 +3,6 @@
 
 {% block content %}
 
-
   <form method="post">
     <b class="text-center"> You can also contribute to Chief Minister's Fund:<br>
       മുഖ്യമന്തിയുടെ ദുരിതാശ്വാസ നിധിയിലേക്ക് സംഭാവന ചെയ്യാം<br/><br>
@@ -40,6 +39,137 @@
   </button>
   {% endbuttons %}
   </form>
+
+<h4>More Donation Options:</h4>
+
+  <table>
+    <thead>
+      <th style="width: 10%;"></th>
+      <th style="width: 30%;">PAYMENT GATEWAY SERVICES</th>
+      <th style="width: 30%;">ACCOUNT DETAILS</th>
+      <th style="width: 30%;">UPI QR CODE</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img class="payment-logo" src="https://donation.cmdrf.kerala.gov.in//assets/images/gateway-southindianbank.jpg"/>
+          <br/>
+          <b>SOUTH INDIAN BANK</b>
+        </td>
+        <td>
+            Internet Banking - 50 banks supported<br/>
+            Domestic Credit and Debit Cards supported<br/><br/>
+            
+            payment charges: Nil
+        </td>
+        <td>
+            A/c Number : 0721053000002584 
+            A/c Name: Chief Minister’s Distress Relief Fund
+            Branch : Corporate Branch, Thiruvananthapuram
+            IFSC : SIBL0000721
+        </td>
+        <td>
+            <img class="qr-code" src="https://donation.cmdrf.kerala.gov.in//assets/images/upi-southindianbank.png"/>
+            <br/><br/>
+            keralacmdrf@sib
+        </td>
+      </tr>
+
+      <tr>
+          <td>
+            <img class="payment-logo" src="https://donation.cmdrf.kerala.gov.in//assets/images/gateway-federalbank.jpg"/>
+            <br/>
+            <b>FEDERAL BANK</b>
+          </td>
+          <td>
+              Internet Banking - 53 banks supported<br/>
+              Domestic Credit and Debit Cards supported<br/>
+              UPI payment supported<br/><br/>
+
+              payment charges: Nil
+          </td>
+          <td>
+              A/c Number : 10210100412397<br/>
+A/c Name: Chief Minister’s Distress Relief Fund<br/>
+Branch: Thiruvananthapuram/Palayam<br/>
+IFSC : FDRL0001021
+          </td>
+          <td>
+              <img class="qr-code" src="https://donation.cmdrf.kerala.gov.in//assets/images/upi-federalbank.png"/>
+              <br/><br/>
+              cmdrf@fbl
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+              <img class="payment-logo" src="https://donation.cmdrf.kerala.gov.in//assets/images/gateway-airtel.jpg"/>
+              <br/>
+              <b>AIRTEL PAYMENTS BANK</b>
+            </td>
+            <td>
+                Airtel Payments bank<br/>
+                Airtel Wallet<br/><br/>
+
+payment charges: Nil<br/>
+            </td>
+            <td>
+            </td>
+            <td>
+                <img class="qr-code" src="https://donation.cmdrf.kerala.gov.in//assets/images/upi-airtel.png"/>
+                <br/><br/>
+                1000010033@mairtel
+            </td>
+          </tr>
+
+          <tr>
+              <td>
+                <img class="payment-logo" src="https://donation.cmdrf.kerala.gov.in//assets/images/gateway-sbi.jpg"/>
+                <br/>
+                <b>STATE BANK OF INDIA</b>
+              </td>
+              <td>
+                  Internet Banking - 40 banks supported<br/>
+                  Domestic Credit and Debit Cards supported<br/><br/>
+                  
+                  payment charges: Nil
+              </td>
+              <td>
+                  A/c Number : 67319948232<br/>
+                  A/c Name: Chief Minister’s Distress Relief Fund<br/>
+                  Branch: City Branch, Thiruvananthapuram<br/>
+                  IFSC : SBIN0070028
+              </td>
+              <td>
+                  <img class="qr-code" src="https://donation.cmdrf.kerala.gov.in//assets/images/upi-sbi.png"/>
+                  <br/><br/>
+                  keralacmdrf@sbi
+              </td>
+            </tr>
+          
+            <tr>
+                <td>
+                  <img class="payment-logo" src="https://donation.cmdrf.kerala.gov.in//assets/images/gateway-paytm.jpg"/>
+                  <br/>
+                  <b>PAYTM</b>
+                </td>
+                <td>
+                    <b>SMART URL SERVICE</b><br/>
+                    <a href="http://m.p-y.tm/Kerala-CMDRF" target="_blank">m.p-y.tm/Kerala-CMDRF</a><br/><br/>
+
+                    payment charges: Nil
+                </td>
+                <td>
+                </td>
+                <td>
+                    <img class="qr-code" src="https://donation.cmdrf.kerala.gov.in//assets/images/upi-paytm.png"/>
+                    <br/><br/>
+                    PAYTM app only
+                </td>
+              </tr>
+    </tbody>
+  </table>
+
 <script>
     window.onload = function() {
         $("#id_phone").attr('type', 'number');
